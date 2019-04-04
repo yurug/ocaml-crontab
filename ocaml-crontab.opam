@@ -1,7 +1,7 @@
 opam-version: "2.0"
 
 name: "ocaml-crontab"
-version: "0.2"
+version: "0.1"
 
 synopsis: "Interacting with cron from OCaml"
 description: """
