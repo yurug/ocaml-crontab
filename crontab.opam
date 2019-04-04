@@ -27,4 +27,3 @@ depends: [
 ]
 
 build: ["dune" "build" "-p" name "-j" jobs]
-run-test: [make "check"]

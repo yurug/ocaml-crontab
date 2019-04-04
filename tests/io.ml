@@ -1,5 +1,3 @@
-#use "topfind";;
-#require "ocaml-crontab";;
 open Cron
 
 let _announce =
@@ -26,5 +24,5 @@ let check what desc =
   Printf.printf "[%s] %s\n%!" (if what then "OK" else "KO") desc;
   exit (if what then 0 else 1)
 
-let _check =
+let check () =
   check (loaded = table) "Input/Output of crontab"

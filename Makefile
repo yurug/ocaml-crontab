@@ -16,4 +16,6 @@ doc:
 	dune build @doc
 
 check:
+	dune build tests/check.exe
+	ln -fs ../_build/default/tests/check.exe tests/run-check
 	make -C tests check
