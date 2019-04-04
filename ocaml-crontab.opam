@@ -6,7 +6,7 @@ version: "0.1"
 synopsis: "Interacting with cron from OCaml"
 description: """
 With this library, an ocaml program can interact with cron:
-parse/print crontab and update installed crontab.
+parse/print crontab and update installed crontabs.
 """
 
 maintainer: "Yann Régis-Gianas <yrg@irif.fr>"
