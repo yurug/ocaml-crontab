@@ -1,0 +1,10 @@
+(rule
+ (targets version.ml)
+ (action
+  (with-stdout-to version.ml
+   (echo "let current=\"%{version:ocaml-crontab}\"\n"))))
+
+(library
+ (name cron)
+ (public_name ocaml-crontab)
+ (libraries menhirLib str))
