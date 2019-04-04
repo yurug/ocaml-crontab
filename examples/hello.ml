@@ -1,5 +1,5 @@
 #use "topfind";;
-#require "ocaml-crontab";;
+#require "crontab";;
 
 open Cron
 
