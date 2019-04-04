@@ -2,9 +2,9 @@
  (targets version.ml)
  (action
   (with-stdout-to version.ml
-   (echo "let current=\"%{version:ocaml-crontab}\"\n"))))
+   (echo "let current=\"%{version:crontab}\"\n"))))
 
 (library
  (name cron)
- (public_name ocaml-crontab)
+ (public_name crontab)
  (libraries str))
