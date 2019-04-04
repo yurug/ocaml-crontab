@@ -23,7 +23,6 @@ depends: [
   "dune"                 {build & >= "1.4.0"}
   "ocaml"
   "odoc"                 {with-doc}
-  "ocamlfind"
 ]
 
 build: ["dune" "build" "-p" name "-j" jobs]

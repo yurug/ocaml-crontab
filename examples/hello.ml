@@ -1,6 +1,3 @@
-#use "topfind";;
-#require "crontab";;
-
 open Cron
 
 let tempfile =
