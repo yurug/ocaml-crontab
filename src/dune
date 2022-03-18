@@ -7,4 +7,4 @@
 (library
  (name cron)
  (public_name crontab)
- (libraries str))
+ (libraries str unix))
